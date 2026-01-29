@@ -2,5 +2,5 @@ new/
 .obsidian/
 .DS_Store
 Thumbs.db
-*.log.obsidian/
+*.log
 .trash/
