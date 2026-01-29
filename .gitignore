@@ -3,3 +3,4 @@ new/
 .DS_Store
 Thumbs.db
 *.log.obsidian/
+.trash/
