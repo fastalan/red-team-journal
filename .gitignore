@@ -1,6 +1,73 @@
-new/
+# --- Obsidian / OS junk ---
 .obsidian/
+.trash/
 .DS_Store
 Thumbs.db
 *.log
-.trash/
+
+# --- Secrets / credentials ---
+.env
+.env.*
+*.token
+*.secret
+*secrets*
+*creds*
+credentials*
+cookies.txt
+cookie*.txt
+
+# --- SSH / keys / certs ---
+**/.ssh/
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+*.cer
+
+# --- VPN configs ---
+*.ovpn
+*.conf
+wg*.conf
+openvpn*.conf
+
+# --- Burp / web artifacts that may contain session data ---
+*.burp
+*.burpproject
+*.burpoptions
+*.har
+*.http
+*.wsdl
+*.swagger.json
+*.openapi.json
+
+# --- Captures ---
+*.pcap
+*.pcapng
+
+# --- Tool outputs (often contain target info) ---
+**/output/
+**/outputs/
+**/reports/
+**/scans/
+**/loot/
+**/evidence/
+**/screenshots/
+**/downloads/
+
+# --- Wordlists / large files ---
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.gz
+*.iso
+*.img
+*.qcow2
+
+# "new/" private scratch ---
+new/
